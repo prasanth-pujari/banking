@@ -10,5 +10,5 @@
   - name: starte the docker service
     command: sudo systemctl start docker
 
-  - name: deploy insurance application
-    command: sudo docker run -itd -p 8083:8082 pujariprasanth/banking:1.0
+  - name: deploy banking application
+    command: sudo docker run -itd -p 8084:8082 pujariprasanth/banking:1.0
